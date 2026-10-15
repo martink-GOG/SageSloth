@@ -115,6 +115,11 @@ h1,h2,h3{
     margin: 40px auto;
     width: 900px;
 }
+.container-storage-gap{
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
 
 /* section 1 */
 .img-and-text-box-container {
@@ -190,13 +195,18 @@ h1,h2,h3{
     width: 455px;
     border-radius: 10px;
 }
-.box-back-to-baseline>p {
+.box-text-styling{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.box-text-styling>p {
     font-size: 17px;
     margin-bottom: 14px;
 
 }
 
-.box-back-to-baseline>h2 {
+.box-text-styling>h2 {
     font-size: 43px;
 }
 
@@ -259,21 +269,25 @@ h1,h2,h3{
 /* section 3 */
 .section-color {
     background-color: var(--color-dark-green);
-    margin-top: 80px;
+    padding: 40px;
 }
 
 .img-respawn-breath>img {
     height: 400px;
     width: 500px;
 }
-
+.mindfulness{
+    gap: 20px;
+}
 .mindfulness>h2 {
     font-size: 56px;
-
 }
 
 .mindfulness>p {
     font-size: 22px;
+}
+.mindfulness .text-tan{
+    font-size: 14px;
 }
 
 .beginner-friendly {
@@ -374,7 +388,7 @@ footer>div>h4 {
 .next-reset {
     display: flex;
     flex-direction: column;
-    gap: 6px;
+    gap: 10px;
 }
 
 .catagorys {
@@ -421,11 +435,29 @@ footer>div>h4 {
 }
 
 .size-background>p {
-    font-size: 40px;
+    font-size: 62px;
 }
+.your-pace-text-box{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.your-pace-text-box>h2{
+ font-size: 42px;
+}
+.your-pace-text-box>p{
+ font-size: 22px;
+}
+
 /* about page */
 .staff-boxes>.box-container{
     height: 460px;
+}
+.one-line-text-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
 }
 /* contact page */
 .notifaction-box-large {
