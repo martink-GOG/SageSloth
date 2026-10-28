@@ -38,7 +38,10 @@ header {
 header>div {
     font-size: 28px;
 }
-h1,h2,h3{
+
+h1,
+h2,
+h3 {
     font-weight: 400;
 }
 
@@ -115,7 +118,8 @@ h1,h2,h3{
     margin: 40px auto;
     width: 900px;
 }
-.container-storage-gap{
+
+.container-storage-gap {
     gap: 20px;
     display: flex;
     flex-direction: column;
@@ -131,7 +135,6 @@ h1,h2,h3{
 .text-box {
     display: flex;
     flex-direction: column;
-    height: 500px;
     width: 460px;
 }
 
@@ -168,7 +171,7 @@ h1,h2,h3{
     font-size: 17px;
 }
 
-.minute-reset {
+.green-button-styling {
     background-color: var(--color-green);
     border-radius: 10px;
     border: 10px;
@@ -190,16 +193,19 @@ h1,h2,h3{
     font-size: 13px;
     color: var(--color-green);
 }
+
 .img-size-small>img {
     height: 375px;
     width: 455px;
     border-radius: 10px;
 }
-.box-text-styling{
+
+.box-text-styling {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
+
 .box-text-styling>p {
     font-size: 17px;
     margin-bottom: 14px;
@@ -207,10 +213,10 @@ h1,h2,h3{
 }
 
 .box-text-styling>h2 {
-    font-size: 43px;
+    font-size: 42px;
 }
 
-.container-boxen {
+.container-boxes {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap balance;
@@ -244,12 +250,13 @@ h1,h2,h3{
     align-items: center;
 }
 
-.logo-box-styling>svg{
+.logo-box-styling>svg {
     border-radius: 6px;
     padding: 14px;
     height: 20px;
     width: 20px;
 }
+
 .logo-box-styling>p {
     border-radius: 6px;
     padding: 14px;
@@ -276,9 +283,11 @@ h1,h2,h3{
     height: 400px;
     width: 500px;
 }
-.mindfulness{
+
+.mindfulness {
     gap: 20px;
 }
+
 .mindfulness>h2 {
     font-size: 56px;
 }
@@ -286,7 +295,8 @@ h1,h2,h3{
 .mindfulness>p {
     font-size: 22px;
 }
-.mindfulness .text-tan{
+
+.mindfulness .text-tan {
     font-size: 14px;
 }
 
@@ -362,8 +372,16 @@ footer>div>h4 {
 
 /* page 2 practice */
 /* section1 */
-.box1>.text-tilea {
+.text-box>.text-tilea {
     font-size: 13px;
+}
+
+.mindful-quest>div>h1 {
+    font-size: 56px;
+}
+
+.mindful-quest>div>p {
+    font-size: 22px;
 }
 
 /* section2 */
@@ -437,29 +455,92 @@ footer>div>h4 {
 .size-background>p {
     font-size: 62px;
 }
-.your-pace-text-box{
+
+.your-pace-text-box {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
-.your-pace-text-box>h2{
- font-size: 42px;
+
+.your-pace-text-box>h2 {
+    font-size: 42px;
 }
-.your-pace-text-box>p{
- font-size: 22px;
+
+.your-pace-text-box>p {
+    font-size: 22px;
 }
 
 /* about page */
-.staff-boxes>.box-container{
+/* section1 */
+.origin-quest-styling>h1{
+    font-size: 56px;
+}
+.origin-quest-styling>p{
+    font-size: 22px;
+}
+.origin-quest-styling>div>.green-button-styling{
+    font-size: 13px;
+    border-radius: 20px;
+}
+/* section2 */
+.box-text-styling>.text-red{
+    font-size: 13px;
+}
+.box-text-styling>.text-tilea{
+    font-size: 13px;
+}
+/* section3 */
+.staff-boxes>.box-container {
     height: 460px;
 }
-.one-line-text-box{
+
+.staff-boxes>.box-container>h3 {
+    font-size: 24px;
+}
+
+.staff-boxes>.box-container>p {
+    font-size: 14px;
+}
+
+.staff-boxes>.box-container>.roboto-mono {
+    font-size: 13px;
+}
+/* section4 */
+.one-line-text-box {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+}
+.one-line-text-box>h2{
+    font-size: 42px;
+}
+.one-line-text-box>p{font-size: 14px;}
+.styling-boxes-guild-notes>div>.roboto-mono{
+    font-size: 13px;
+}
+.styling-boxes-guild-notes>div>p,div{
+    font-size: 14px;
 }
 /* contact page */
+/* section1 */
+.guides-online>h2{
+    font-size: 56px;
+    text-align: center;
+}
+.guides-online>.text-fade{
+    font-size: 22px;
+}
+/* section2 */
+.support-quest>.text-red{
+font-size: 13px;
+}
+.support-quest>h2{
+font-size: 42px;
+}
+.support-quest>.text-fade{
+font-size: 17px;
+}
 .notifaction-box-large {
     background-color: var(--color-dark-green);
     border-radius: 14px;
@@ -489,8 +570,10 @@ footer>div>h4 {
     font-size: 40px;
     border-radius: 10px;
 }
-.link-text-color{
+
+.link-text-color {
     color: #142018;
+    opacity: 68%;
 }
 
 .giant-box-contact {
@@ -514,6 +597,7 @@ input[type=text] {
     display: flex;
     font-size: 17px;
 }
+
 input[type=email] {
     border: 1px solid var(--color-dark-green-border);
     background-color: var(--color-dark-green);
@@ -534,6 +618,7 @@ input[type=button] {
     border: none;
     font-size: 17px;
 }
+
 textarea {
     background-color: #13201B;
     color: #53645C;
@@ -543,6 +628,7 @@ textarea {
     height: 170px;
     padding: 12px;
 }
+
 select {
     background-color: #13201B;
     color: #53645C;
@@ -551,27 +637,37 @@ select {
     width: 680px;
     padding: 12px;
 }
-.giant-box-contact input{
+
+.giant-box-contact input {
     background-color: #13201B;
     width: 680px;
 }
-.giant-box-contact input[type=button]{
+
+.giant-box-contact input[type=button] {
     background-color: var(--color-green);
-    width: 300px;
+    width: 200px;
 }
-.giant-box input[type=button]{
+
+.giant-box input[type=button] {
     background-color: var(--color-green);
     width: 240px;
 }
-.message-flex-styling{
+
+.message-flex-styling {
     display: flex;
     justify-content: space-between;
     width: 680px;
 }
-.message-flex-styling input{
+.message-flex-styling>p{
+    width: 400px;
+    font-size: 14px;
+}
+
+.message-flex-styling input {
     width: 320px;
 
 }
+
 /* background colors */
 .background-green {
     background-color: var(--color-green);
